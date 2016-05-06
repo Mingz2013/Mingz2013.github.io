@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Mingz's Blog</title>
-    <link href="http://mingz2013.github.io/" rel="alternate"></link>
-    <link href="http://mingz2013.github.io/feeds/uncategorized.atom.xml" rel="self"></link>
-    <id>http://mingz2013.github.io/</id>
+    <link href="http://mingz.net/" rel="alternate"></link>
+    <link href="http://mingz.net/feeds/uncategorized.atom.xml" rel="self"></link>
+    <id>http://mingz.net/</id>
     <updated>2016-05-06T12:18:00+08:00</updated>
     <entry>
         <title>Hello</title>
-        <link href="http://mingz2013.github.io/articles/hello.html" rel="alternate"></link>
+        <link href="http://mingz.net/articles/hello.html" rel="alternate"></link>
         <published>2016-05-06T12:18:00+08:00</published>
         <author>
             <name>mingz</name>
         </author>
-        <id>tag:mingz2013.github.io,2016-05-06:articles/hello.html</id>
+        <id>tag:mingz.net,2016-05-06:articles/hello.html</id>
         <summary type="html">&lt;p&gt;Hello Pelican, Markdown and GitHub Pages.&lt;/p&gt;</summary>
         <category term="Pelican"></category>
         <category term="Markdown"></category>
