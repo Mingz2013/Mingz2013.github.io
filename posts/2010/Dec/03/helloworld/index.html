@@ -1,57 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-              <title>mingz's home</title>
         <meta charset="utf-8" />
-        <link href="http://mingz.me/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="mingz's home Full Atom Feed" />
-        <link href="http://mingz.me/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="mingz's home Full RSS Feed" />
-        <link href="http://mingz.me/feeds/python.atom.xml" type="application/atom+xml" rel="alternate" title="mingz's home Categories Atom Feed" />
-        <link href="http://mingz.me/feeds/python.rss.xml" type="application/rss+xml" rel="alternate" title="mingz's home Categories RSS Feed" />
+        <title>Helloworld</title>
+        <link rel="stylesheet" href="http://mingz.me/theme/css/main.css" />
+        <link href="http://mingz.me/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="mingz's home Atom Feed" />
+        <link href="http://mingz.me/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="mingz's home RSS Feed" />
 
-    <link rel="stylesheet" type="text/css" href="http://mingz.me/theme/css/style.css"/>
-
-
-
-    <meta name="tags" content="pelican" />
-    <meta name="tags" content="publishing" />
-
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 </head>
 
 <body id="index" class="home">
+<a href="http://github.com/mingz2013/">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
         <header id="banner" class="body">
-                <h1><a href="http://mingz.me/">mingz's home <strong></strong></a></h1>
+                <h1><a href="http://mingz.me/">mingz's home </a></h1>
+                <nav><ul>
+                    <li><a href="http://mingz.me/pages/about.html">About</a></li>
+                    <li><a href="http://mingz.me/pages/contact.html">Contact</a></li>
+                    <li><a href="http://mingz.me/category/yeah.html">yeah</a></li>
+                    <li class="active"><a href="http://mingz.me/category/python.html">Python</a></li>
+                </ul></nav>
         </header><!-- /#banner -->
-        <nav id="menu"><ul>
-            <li><a href="http://mingz.me/pages/about.html">About</a></li>
-            <li><a href="http://mingz.me/pages/contact.html">Contact</a></li>
-        </ul></nav><!-- /#menu -->
 <section id="content" class="body">
-  <header>
-    <h2 class="entry-title">
-      <a href="http://mingz.me/posts/2010/Dec/03/helloworld/" rel="bookmark"
-         title="Permalink to Helloworld">Helloworld</a></h2>
- 
-  </header>
-  <footer class="post-info">
-    <abbr class="published" title="2010-12-03T10:20:00+01:00">
-      Fri 03 December 2010
-    </abbr>
-    <abbr class="modified" title="2010-12-05T19:30:00+01:00">
-      Sun 05 December 2010
-    </abbr>
-    <address class="vcard author">
-      By           <a class="url fn" href="http://mingz.me/author/mingz.html">Mingz</a>
-    </address>
-  </footer><!-- /.post-info -->
-  <div class="entry-content">
-    <p>This is the content of my super blog&nbsp;post.</p>
-  </div><!-- /.entry-content -->
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://mingz.me/posts/2010/Dec/03/helloworld/" rel="bookmark"
+           title="Permalink to Helloworld">Helloworld</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2010-12-03T10:20:00+01:00">
+                Published: Fri 03 December 2010
+        </abbr>
+		<br />
+        <abbr class="modified" title="2010-12-05T19:30:00+01:00">
+                Updated: Sun 05 December 2010
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://mingz.me/author/mingz.html">Mingz</a>
+        </address>
+<p>In <a href="http://mingz.me/category/python.html">Python</a>.</p>
+<p>tags: <a href="http://mingz.me/tag/pelican.html">pelican</a> <a href="http://mingz.me/tag/publishing.html">publishing</a> </p>
+</footer><!-- /.post-info -->      <p>This is the content of my super blog&nbsp;post.</p>
+    </div><!-- /.entry-content -->
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'mingz's home';
+        var disqus_identifier = 'posts/2010/Dec/03/helloworld/';
+        var disqus_url = 'http://mingz.me/posts/2010/Dec/03/helloworld/';
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//mingz's home.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the comments.</noscript>
+    </div>
+
+  </article>
 </section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://mingz.me/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            <li><a href="http://mingz.me/feeds/all.rss.xml" type="application/rss+xml" rel="alternate">rss feed</a></li>
+
+                            <li><a href="http://twitter.com/ametaireau">twitter</a></li>
+                            <li><a href="http://lastfm.com/user/akounet">lastfm</a></li>
+                            <li><a href="http://github.com/ametaireau">github</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'mingz's home';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
 </body>
 </html>
